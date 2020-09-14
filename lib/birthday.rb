@@ -12,7 +12,7 @@ end
 
 def birthday_kids(birthday_kids)
   birthday_kids.each do |kids_name, age|
-    if > 9
+    if => 9
       puts "Happy Birthday #{kinds_name}! You are too old for this."
     end
-  end 
+  end
